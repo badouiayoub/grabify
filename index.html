@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/Grabify.css" />
+
+    <title>mainpage</title>
+    <script src="js/jQuery3.7.1.js"></script>
+    <script src="js/grabify.js"></script>
+  </head>
+
+  <body class="container">
+    <div class="sticked">
+      <label class="webtitle">Grabify</label>
+      <img src="pic/shopping-cart.png" id="basketlogo" />
+    </div>
+    <div class="search-container">
+      <input id="searchtext" type="text" placeholder="Discover our items" />
+      <img src="pic/search.png" id="searchlogo" />
+    </div>
+    <div class="categories">
+      <button id="cat1">All</button>
+      <button id="cat2">Fruits</button>
+      <button id="cat3">Bakery</button>
+      <button id="cat4">Dairy</button>
+      <button id="cat5">Snack</button>
+    </div>
+    <div class="mainpage-container">
+      <div id="div1" class="div1 Fruits">
+        <img src="pic/apples.jpg" class="img1" />
+        <div id="cost1" class="cost1">2.00$</div>
+        <label id="name1" class="name1">Apples</label>
+        <p class="desc1">in kilogram, Vibrant, crisp organic apples</p>
+        <button id="decrease1">-</button>
+        <label id="label1">0</label>
+        <button id="increase1">+</button>
+      </div>
+      <div id="div2" class="div2 Bakery">
+        <img src="pic/bread.jpg" class="img2" />
+        <div id="cost2" class="cost2">2.49$</div>
+        <label id="name2" class="name2">Sunshine Bread</label>
+        <p class="desc2">in piece, golden, baked loaf</p>
+        <button id="decrease2">-</button>
+        <label id="label2">0</label>
+        <button id="increase2">+</button>
+      </div>
+      <div id="div3" class="div3 Dairy">
+        <img src="pic/milk.jpg" class="img3" />
+        <div id="cost3" class="cost3">2.00$</div>
+        <label id="name3" class="name3">Milk</label>
+        <p class="desc3">in bottle, organic milk, pure, fresh</p>
+        <button id="decrease3">-</button>
+        <label id="label3">0</label>
+        <button id="increase3">+</button>
+      </div>
+      <div id="div4" class="div4 Snack">
+        <img src="pic/albeni.jpg" class="img4" />
+        <div id="cost4" class="cost4">1.00$</div>
+        <label id="name4" class="name4">Albeni Bites</label>
+        <p class="desc4">in piece, sweet, creamy caramel</p>
+        <button id="decrease4">-</button>
+        <label id="label4">0</label>
+        <button id="increase4">+</button>
+      </div>
+
+      <div id="div5" class="div1 Fruits">
+        <img src="pic/bananas.jpg" class="img5" />
+        <div id="cost5" class="cost5">1.99$</div>
+        <label id="name5" class="name1">Bananas</label>
+        <p class="desc5">in kilogram, fresh tropical bananas</p>
+        <button id="decrease5">-</button>
+        <label id="label5">0</label>
+        <button id="increase5">+</button>
+      </div>
+
+      <div id="div6" class="div2 Bakery">
+        <img src="pic/croissant.jpg" class="img6" />
+        <div id="cost6" class="cost6">1.50$</div>
+        <label id="name6" class="name2">Butter Croissant</label>
+        <p class="desc6">in piece, flaky, buttery pastry</p>
+        <button id="decrease6">-</button>
+        <label id="label6">0</label>
+        <button id="increase6">+</button>
+      </div>
+
+      <div id="div7" class="div3 Dairy">
+        <img src="pic/yogurt.jpg" class="img7" />
+        <div id="cost7" class="cost7">1.75$</div>
+        <label id="name7" class="name3">Greek Yogurt</label>
+        <p class="desc7">in cup, creamy, protein-rich yogurt</p>
+        <button id="decrease7">-</button>
+        <label id="label7">0</label>
+        <button id="increase7">+</button>
+      </div>
+
+      <div id="div8" class="div4 Snack">
+        <img src="pic/chips.jpg" class="img8" />
+        <div id="cost8" class="cost8">2.25$</div>
+        <label id="name8" class="name4">Potato Chips</label>
+        <p class="desc8">in bag, crispy, salted chips</p>
+        <button id="decrease8">-</button>
+        <label id="label8">0</label>
+        <button id="increase8">+</button>
+      </div>
+
+      <div id="div9" class="div1 Fruits">
+        <img src="pic/oranges.jpg" class="img9" />
+        <div id="cost9" class="cost9">2.50$</div>
+        <label id="name9" class="name1">Oranges</label>
+        <p class="desc9">in kilogram, juicy citrus fruits</p>
+        <button id="decrease9">-</button>
+        <label id="label9">0</label>
+        <button id="increase9">+</button>
+      </div>
+
+      <div id="div10" class="div2 Bakery">
+        <img src="pic/muffins.jpg" class="img10" />
+        <div id="cost10" class="cost10">3.00$</div>
+        <label id="name10" class="name2">Blueberry Muffins</label>
+        <p class="desc10">pack of 4, fresh baked muffins</p>
+        <button id="decrease10">-</button>
+        <label id="label10">0</label>
+        <button id="increase10">+</button>
+      </div>
+
+      <div id="div11" class="div3 Dairy">
+        <img src="pic/cheese.jpg" class="img11" />
+        <div id="cost11" class="cost11">4.50$</div>
+        <label id="name11" class="name3">Cheddar Cheese</label>
+        <p class="desc11">in package, aged cheddar slice</p>
+        <button id="decrease11">-</button>
+        <label id="label11">0</label>
+        <button id="increase11">+</button>
+      </div>
+
+      <div id="div12" class="div4 Snack">
+        <img src="pic/cookies.jpg" class="img12" />
+        <div id="cost12" class="cost12">2.75$</div>
+        <label id="name12" class="name4">Chocolate Cookies</label>
+        <p class="desc12">pack of 12, crunchy cookies</p>
+        <button id="decrease12">-</button>
+        <label id="label12">0</label>
+        <button id="increase12">+</button>
+      </div>
+
+      <div id="div13" class="div1 Fruits">
+        <img src="pic/strawberries.jpg" class="img13" />
+        <div id="cost13" class="cost13">3.99$</div>
+        <label id="name13" class="name1">Strawberries</label>
+        <p class="desc13">in box, sweet fresh berries</p>
+        <button id="decrease13">-</button>
+        <label id="label13">0</label>
+        <button id="increase13">+</button>
+      </div>
+
+      <div id="div14" class="div2 Bakery">
+        <img src="pic/bagels.jpg" class="img14" />
+        <div id="cost14" class="cost14">3.50$</div>
+        <label id="name14" class="name2">Fresh Bagels</label>
+        <p class="desc14">pack of 6, assorted bagels</p>
+        <button id="decrease14">-</button>
+        <label id="label14">0</label>
+        <button id="increase14">+</button>
+      </div>
+      <div id="div15" class="div3 Dairy">
+        <img src="pic/butter.jpg" class="img15" />
+        <div id="cost15" class="cost15">3.25$</div>
+        <label id="name15" class="name3">Fresh Butter</label>
+        <p class="desc15">in package, creamy dairy butter</p>
+        <button id="decrease15">-</button>
+        <label id="label15">0</label>
+        <button id="increase15">+</button>
+      </div>
+
+      <div id="div16" class="div4 Snack">
+        <img src="pic/popcorn.jpg" class="img16" />
+        <div id="cost16" class="cost16">2.15$</div>
+        <label id="name16" class="name4">Movie Popcorn</label>
+        <p class="desc16">in bag, ready-to-pop kernels</p>
+        <button id="decrease16">-</button>
+        <label id="label16">0</label>
+        <button id="increase16">+</button>
+      </div>
+    </div>
+
+    <div id="openorder" class="openorder">
+      <label id="total">Total cost</label>
+      <label id="cost">0.00$</label>
+      <button id="showorderbutton" class="showorderbutton">Show order</button>
+    </div>
+  </body>
+</html>
