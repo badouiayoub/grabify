@@ -318,7 +318,7 @@ function displaytotal() {
   $("#totalamount").text("total: $" + total);
 }
 function gotomain() {
-  window.location.href = "Grabify.html";
+  window.location.href = "index.html";
 }
 function resetarrays() {
   let a = [];
@@ -333,7 +333,7 @@ function continueorder() {
   saveArrayToLocalStorage("quantity", getColumnArray("quantity"));
   saveArrayToLocalStorage("unitcost", getColumnArray("unit-cost"));
   saveArrayToLocalStorage("cost", getColumnArray("cost"));
-  window.location.href = "Grabify.html";
+  window.location.href = "index.html";
 }
 
 function gotoHistory() {
